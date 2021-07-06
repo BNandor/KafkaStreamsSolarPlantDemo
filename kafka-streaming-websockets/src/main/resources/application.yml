@@ -1,0 +1,45 @@
+kafka:
+  bootstrapAddress: localhost:29092
+  topic-prod:
+    in: data-in
+    out: out-energy-prod-by-country
+  topic-cons:
+    in: data-in
+    out: out-energy-cons-by-country
+  topic-humidity:
+    in: data-in
+    out: out-max-humidity-by-company
+  topic-humidity-min:
+    in: data-in
+    out: out-min-humidity-by-company
+  topic-humidity-average:
+    in: data-in
+    out: out-average-humidity-by-company
+
+
+#spring:
+#  kafka:
+#    consumer:
+#      auto-offset-reset: earliest
+
+websocket:
+  messages-prod:
+   in: /dashboard/stream-in-prod
+   out: /dashboard/stream-out-prod
+  messages-cons:
+   in: /dashboard/stream-in-cons
+   out: /dashboard/stream-out-cons
+  messages-humidity:
+     in: /dashboard/stream-in-humidity
+     out: /dashboard/stream-out-humidity
+  messages-humidity-min:
+    in: /dashboard/stream-in-humidity-min
+    out: /dashboard/stream-out-humidity-min
+  messages-humidity-average:
+    in: /dashboard/stream-in-humidity-average
+    out: /dashboard/stream-out-humidity-average
+
+
+  broker: /dashboard
+  prefix: /app
+  endpoint: /jdisp-websocket-endpoint

@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 104 products, 14 sources, 13 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/tuples/SolarPlant.scala, ${BASE}/src/main/scala/producers/EnergyTrafficProducer.scala, ${BASE}/src/main/scala/producers/WeatherInformationEventGenerator.scala, ${BASE}/src/main/scala/producers/PlantFailureEventProducer.scala, ${BASE}/src/main/scala/tuples/events/EnergyTrafficEvent.scala, ${BASE}/src/main/scala/tuples/events/WeatherInformationEvent.scala, ${BASE}/src/main/scala/producers/WeatherInformationProducer.scala, ${BASE}/src/main/scala/config/DefaultConfig.scala, ${BASE}/src/main/scala/tuples/events/PlantFailureEvent.scala, ${BASE}/src/main/scala/producers/EnergyTrafficEventGenerator.scala, ${BASE}/src/main/scala/tuples/PlantFailure.scala, ${BASE}/src/main/scala/producers/PlantFailureEventGenerator.scala, ${BASE}/src/main/scala/tuples/SolarPlantAreas.scala, ${BASE}/src/main/scala/consumers/Consumer.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
